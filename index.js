@@ -42,7 +42,7 @@ window.onload = function () {
         img.src = item.image;
         product_name.textContent = item.title;
         // console.log(item, "item");
-        product_price.textContent = item.price + "$";
+        product_price.textContent = item.price + "AED";
         add_btn.textContent = "Add to cart";
         product.classList = "product";
         product_info.classList = "product_info";
